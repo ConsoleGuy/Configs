@@ -2,14 +2,8 @@ print("tagamy neovim config...")
 vim.opt.number = true;
 vim.opt.relativenumber = true
 
-local call = vim.call
-local cmd = vim.cmd
-local Plug = vim.fn['plug#']
-local PATH = "~/AppData/Local/nvim/Plugged"
-
-call('plug#begin', PATH)
-	Plug 'folke/tokyonight.nvim'
-call'plug#end'
+require("vim-plug")
+require("lsp")
 
 --vim.cmd.colorscheme('catppuccin_frappe');
 vim.cmd.colorscheme('tokyonight-storm');
