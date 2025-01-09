@@ -9,6 +9,8 @@ local PATH = "~/.config/nvim/Plugged/"
 
 call('plug#begin', PATH)
 	Plug 'folke/tokyonight.nvim'
+	Plug 'nvim-lua/plenary.nvim'
+	Plug 'nvim-telescope/telescope.nvim'
 call'plug#end'
 
 --vim.cmd.colorscheme('catppuccin_frappe');
