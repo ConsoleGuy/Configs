@@ -4,6 +4,7 @@ vim.opt.relativenumber = true
 
 require("vim-plug")
 require("lsp")
+require("custom")
 
 --vim.cmd.colorscheme('catppuccin_frappe');
 vim.cmd.colorscheme('tokyonight-storm');
