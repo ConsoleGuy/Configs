@@ -2,7 +2,6 @@ print("tagamy neovim config...")
 vim.opt.number = true;
 vim.opt.relativenumber = true
 
-
 require("vim-plug")
 require("lsp")
 require("custom")
