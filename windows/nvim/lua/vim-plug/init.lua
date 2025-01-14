@@ -1,7 +1,7 @@
 local call = vim.call
 local cmd = vim.cmd
 local Plug = vim.fn['plug#']
-local PATH = "C:\\Users\\<USER>\\AppData\\Local\\nvim-data\\Plugged"
+local PATH = vim.fn.expand("$LOCALAPPDATA") .. "\\nvim-data\\Plugged"
 
 call('plug#begin', PATH)
 -- telescope
