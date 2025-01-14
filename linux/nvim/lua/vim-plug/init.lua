@@ -4,8 +4,10 @@ local Plug = vim.fn['plug#']
 local PATH = "~/.config/nvim/Plugged/"
 
 call('plug#begin', PATH)
-	Plug 'folke/tokyonight.nvim'
+-- telescope
+
 	Plug 'nvim-lua/plenary.nvim'
+	Plug 'nvim-telescope/telescope.nvim'
 	Plug 'nvim-telescope/telescope.nvim'
 
 -- lsp 
@@ -18,5 +20,9 @@ call('plug#begin', PATH)
 	Plug "L3MON4D3/LuaSnip"
 	Plug "saadparwaiz1/cmp_luasnip"
 	Plug "j-hui/fidget.nvim"
+
+-- others
+	Plug 'folke/tokyonight.nvim'
+	Plug '42Paris/42header'
 
 call'plug#end'
