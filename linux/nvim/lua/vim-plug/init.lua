@@ -22,6 +22,7 @@ call('plug#begin', PATH)
 	Plug "j-hui/fidget.nvim"
 
 -- others
+	Plug ('ThePrimeagen/harpoon', { branch = 'harpoon2' })
 	Plug 'folke/tokyonight.nvim'
 	Plug '42Paris/42header'
 
